@@ -45,6 +45,12 @@ gem 'active_model_serializers'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem "rspec-rails", "~> 3.0"
+  gem "rspec-mocks" # for rspec-mocks only
+  gem "capybara"
+  gem 'shoulda-matchers', require: false
+  gem "factory_girl_rails"
+  gem "ffaker"
 end
 
 group :development do

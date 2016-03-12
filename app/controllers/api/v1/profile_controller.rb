@@ -20,4 +20,5 @@ before_action :authenticate_applicant!
 	def update_params
 		params.require(:profile).permit(:name , :experience , :current_location)
 	end
+	
 end
